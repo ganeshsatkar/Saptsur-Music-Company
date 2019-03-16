@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bag14">
+
+
+
+    <ScrollView
+        android:background="@drawable/bag14"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+
+            android:paddingBottom="20dp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+
+            android:orientation="vertical">
+
+
+
+
+
+
+            <ImageView
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageViewd"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/keyperson"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="#cddddf"
+                android:text="@string/mr_mangesh_more"/>
+
+            <TextView
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/executive_director_and_producer"
+                android:id="@+id/textView1d"
+                android:textSize="15sp"/>
+
+
+            <Button
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#f57373"
+                />
+
+            <TextView
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/keymesg"
+
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
+
+
